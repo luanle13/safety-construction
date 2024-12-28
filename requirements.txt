@@ -1,0 +1,6 @@
+roboflow
+ultralytics
+matplotlib
+huggingface-hub
+albumentations
+ipython
