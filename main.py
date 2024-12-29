@@ -51,7 +51,7 @@ async def predict(
     results = model.predict(image_bgr)
 
     bounding_boxes = []
-    confidence_threshold = 0.8
+    confidence_threshold = 0.5
 
     for result in results:
         for box in result.boxes:
