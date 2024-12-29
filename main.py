@@ -18,9 +18,8 @@ model_path = hf_hub_download(repo_id=repo_id, filename="model.pt")
 model = YOLO(model_path)
 
 LABEL_MAP = {
-    5: 'NO-Hardhat',
-    6: 'NO-Mask',
-    7: 'NO-Safety Vest',
+    1: 'no-helmet',
+    2: 'no-vest',
 }
 
 origins = [
