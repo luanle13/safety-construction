@@ -1,7 +1,0 @@
-names:
-- safety
-nc: 1
-path: /home/rowan/safety-construction/dataset
-test: test/images
-train: train/images
-val: valid/images
