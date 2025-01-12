@@ -171,5 +171,5 @@ cython_debug/
 .pypirc
 
 dataset/
-train/
 *.pt
+*.onnx
